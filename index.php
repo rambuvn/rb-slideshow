@@ -1,2 +1,6 @@
 <?php
-// Silent
+/**
+ *  Silent
+ *
+ * @package rtCamp
+ */

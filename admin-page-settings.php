@@ -1,6 +1,6 @@
 <?php
 /**
- * Front-end shortcode display
+ * Admin Setting page template
  *
  * @package rtCamp
  */
