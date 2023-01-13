@@ -1,5 +1,5 @@
 <?php
-if ( !defined('ABSPATH') ) {
+if ( ! defined('ABSPATH') ) {
     die('Get out please');
 }
 
@@ -15,7 +15,7 @@ if ( count($attachtments) > 0 ) {
                 $image_url = wp_get_attachment_url(intval($attachment_id));
                 if ( ! $image_url ) continue;
                 $caption = wp_get_attachment_caption($attachment_id);
-                if ( !$caption ) {
+                if ( ! $caption ) {
                     $caption = get_the_title($attachment_id);
                 }
             ?>
@@ -24,4 +24,3 @@ if ( count($attachtments) > 0 ) {
     </div>
     <?php
 }
-
